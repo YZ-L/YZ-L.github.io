@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>jorden.ua</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>JORDEN</h1>
+  <p>Ми працюємо, щоб <b> клієнти</b> отримували задоволення!</p>
+</div>
+
+<div class="navbar">
+  <a href="#" class="active">Головна</a>
+  <a href="#">Автобусні тури</a>
+  <a href="#">Авіа тури</a>
+  <a href="#" class="right">Вийти</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Про мене</h2>
+    <h5>Фото:</h5>
+    <img src= "44.jpg" width= "65%" height="40%">
+    <p> 
+
+    Мене звати Юля, я молода і амбітна власниця Jorden, це мій перший власний проект, до якого я доклала всі свої сили, а також були потрачені великі кошти, але це все заради моїх клієнтів, ми хочемо, щоб вони були задоволені нашими турами, і розказували про нас іншим</p>
+    <h3> <p><a href="https://instagram.com/yulia_zinuk?igshid=1h5v8toc2btgl">МИ В ІНСТАГРАМ!</a></p></h3>
+    <div class=img scr = "000.png" style=height:40px;> </div><br>
+     <img src= "9.png" height:60px; >
+     <img src= "8.png" height:60px; >
+     <img src= "7.png" height:60px; >    
+   <img src= "6.png" height:50px; >    
+  </div>
+  <div class="main">
+    <h2>ПРО НАС</h2>
+    <h5> Ми заснувалися 25 червня, 2018 року</h5>
+        <img src="рр.jpg">
+    <p>Прайс агрегатор нашої туристичної компанії
+легкий спосіб вибрати тур</p>
+    <p>Ми допоможемо Вам вибрати відпочинок на морі в будь-якій частині світу; гарячі путівки; автобусні екскурсійні тури; тур вихідного дня або круїз; забронювати авіаквитки. Ви можете самостійно здійснити онлайн пошук туру серед пропозицій найбільших туроператорів</p>
+    <br> 
+    <h2> Туроператор №1 в Україні 
+    <img src="назік.png"  width= "40%" height="30%" > </h2>
+    <h5> </h5>
+    
+    <p>Ми поважаємо наших туристів</p>
+    <p> Багато людей люблять подорожувати , але не знають куди поїхати –  Jorden допоможе їм при виборі відпочинку .</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Хороших вам подорожей!</h2>
+</div>
+
+</body>
+</html>
