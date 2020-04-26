@@ -112,25 +112,20 @@ body {
   }
 }
 /*Air*/
-.air {
-padding: 3%;
+.air table{
+padding: 7px;
 text-align: center;
 }
-
 .air td{
     background: #ddd;
-
-}
-.air tbody{
-
-    padding: 7px;
-}
-.buss img{
-    width:300px ;
-    height:100px;
 
 }
 .buss table{
 
     padding: 7px;
+}
+.tur{
+text-align: center;
+color: red;
+font-size: 200%;
 }
